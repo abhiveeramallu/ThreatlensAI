@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Powered Bot Detection Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell app-shell--landing">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand__mark">AI</div>
+          <div>
+            <strong>Threat Intelligence</strong>
+            <span>Enterprise Security Demo</span>
+          </div>
+        </div>
+
+        <nav class="topbar__actions">
+          <a class="button button--secondary" href="/admin.html">Open Dashboard</a>
+        </nav>
+      </header>
+
+      <section class="landing-layout">
+        <section class="hero-panel">
+          <p class="eyebrow eyebrow--teal">ThreatLens AI</p>
+          <h1 class="hero-title">Real-Time Security Analytics &amp; Threat Intelligence Platform</h1>
+          <p class="hero-subtitle">
+            Detect, analyze, and automatically respond to automated attacks using behavioral analytics, risk scoring, and adaptive security controls.
+          </p>
+
+          <div class="pill-row">
+            <span class="soft-pill">Security Event Intelligence</span>
+            <span class="soft-pill">Adaptive Risk Scoring</span>
+            <span class="soft-pill">Automated Response Engine</span>
+            <span class="soft-pill">Explainable Threat Analysis</span>
+          </div>
+
+          <section class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-card__label">Live Session Memory</span>
+              <strong>In-memory demo state with live action updates</strong>
+              <p>Events, sessions, and response outcomes stay inside the current run for a cleaner demo story.</p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-card__label">Threat Scoring Engine</span>
+              <strong>Behavior + fingerprint + automation signals</strong>
+              <p>Each session is scored before access is granted, challenged, or blocked.</p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-card__label">Adaptive Actions</span>
+              <strong>CAPTCHA, OTP, or immediate block</strong>
+              <p>The response engine escalates verification based on observed risk, not a static rule.</p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-card__label">Explainable AI</span>
+              <strong>Human-readable evidence for every decision</strong>
+              <p>Security teams can understand why a session was accepted, challenged, or blocked.</p>
+            </article>
+          </section>
+        </section>
+
+        <section class="gateway-stack">
+          <section class="surface-card gateway-card">
+            <div class="section-heading">
+              <h2>Risk-Based Access Gateway</h2>
+              <p>Run the security analysis flow and trigger adaptive verification controls.</p>
+            </div>
+
+            <form id="login-form" class="form" autocomplete="off">
+              <label class="field">
+                <span>Username</span>
+                <input id="username" name="username" type="text" placeholder="analyst@company.com" required />
+              </label>
+
+              <label class="field">
+                <span>Password</span>
+                <input id="password" name="password" type="password" placeholder="Enter password" required />
+              </label>
+
+              <div class="challenge challenge--hidden" id="captcha-panel">
+                <div class="challenge__label">Additional verification required</div>
+                <div class="challenge__prompt" id="captcha-prompt">Challenge will appear here.</div>
+
+                <label class="field field--compact">
+                  <span>Your answer</span>
+                  <input id="captcha-answer" name="captcha_answer" type="text" autocomplete="off" />
+                </label>
+
+                <input
+                  id="captcha-hp"
+                  name="captcha_hp"
+                  class="hidden-honeypot"
+                  type="text"
+                  tabindex="-1"
+                  autocomplete="off"
+                  aria-hidden="true"
+                />
+
+                <div class="challenge__hint" id="captcha-hint">Complete the verification to continue.</div>
+                <span class="badge badge--warning" id="captcha-attempts">3 attempts left</span>
+              </div>
+
+              <div class="challenge challenge--hidden" id="otp-panel">
+                <div class="challenge__label">One-Time Verification</div>
+                <label class="field field--compact">
+                  <span>One-time code</span>
+                  <input id="otp-code" name="otp_code" type="text" inputmode="numeric" maxlength="6" autocomplete="one-time-code" />
+                </label>
+                <div class="challenge__hint" id="otp-hint">Enter the 6-digit code.</div>
+                <div class="challenge__demo" id="otp-demo"></div>
+                <span class="badge badge--danger" id="otp-attempts">3 attempts left</span>
+              </div>
+
+              <button id="login-btn" class="button button--primary button--wide" type="submit">Run Security Analysis</button>
+
+              <button
+                id="trap-btn"
+                class="trap"
+                type="submit"
+                tabindex="-1"
+                aria-hidden="true"
+                data-trap="true"
+              >
+                Verify
+              </button>
+            </form>
+
+            <div class="status" id="status" aria-live="polite">
+              <div class="status__message" id="status-message"></div>
+              <div class="status__reason" id="status-reason"></div>
+            </div>
+
+            <div class="admin-link">
+              <span>Admin access</span>
+              <a href="/admin.html">View session logs</a>
+            </div>
+          </section>
+
+          
+                
+      
+
+          <section class="surface-card simulation-card">
+            <div class="section-heading">
+              <h2>Attack Simulation Center</h2>
+              <p>Launch controlled attack simulations against the demo environment and watch detections update live.</p>
+            </div>
+
+            <div class="simulation-actions">
+              <button class="button button--secondary simulation-button" type="button" data-simulation="suspicious">Run Suspicious Session</button>
+              <button class="button button--secondary simulation-button" type="button" data-simulation="selenium">Run Selenium Simulation</button>
+              <button class="button button--secondary simulation-button" type="button" data-simulation="playwright">Run Playwright Simulation</button>
+              <button class="button button--secondary simulation-button" type="button" data-simulation="puppeteer">Run Puppeteer Simulation</button>
+            </div>
+
+            <div class="simulation-meta">
+              <span id="simulations-active">0 active simulations</span>
+              <button class="button button--ghost" id="reset-live-btn" type="button">Clear Session</button>
+            </div>
+          </section>
+
+          <section class="surface-card session-card">
+            <div class="section-heading">
+              <h2>Current Session Table</h2>
+              <p>In-memory sessions update instantly without a page refresh.</p>
+            </div>
+
+            <div class="simulation-metrics">
+              <article class="mini-metric">
+                <span>Active Simulations</span>
+                <strong id="mini-active">0</strong>
+              </article>
+              <article class="mini-metric">
+                <span>Bot Detections</span>
+                <strong id="mini-bots">0</strong>
+              </article>
+              <article class="mini-metric">
+                <span>Human Sessions</span>
+                <strong id="mini-humans">0</strong>
+              </article>
+              <article class="mini-metric">
+                <span>Blocked Sessions</span>
+                <strong id="mini-blocked">0</strong>
+              </article>
+              <article class="mini-metric">
+                <span>Average Risk Score</span>
+                <strong id="mini-average">0</strong>
+              </article>
+            </div>
+
+            <div class="logs-table-wrap">
+              <table class="logs-table">
+                <thead>
+                  <tr>
+                    <th>Attack Type</th>
+                    <th>Risk Score</th>
+                    <th>Classification</th>
+                    <th>Action</th>
+                    <th>Confidence</th>
+                    <th>Timestamp</th>
+                  </tr>
+                </thead>
+                <tbody id="simulation-session-body">
+                  <tr>
+                    <td colspan="6" class="table-empty">Run a simulation to populate the session table.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <script src="vendor/botdetect.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

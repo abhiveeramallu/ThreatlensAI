@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Security Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <aside class="sidebar">
+        <div class="brand brand--sidebar">
+          <div class="brand__mark">AI</div>
+          <div>
+            <strong>Threat Intelligence</strong>
+            <span>Enterprise Security Center</span>
+          </div>
+        </div>
+
+        <nav class="sidebar__nav">
+          <a class="sidebar__item sidebar__item--active" href="/admin.html">Dashboard</a>
+          <a class="sidebar__item" href="#overview">Threat Intelligence</a>
+          <a class="sidebar__item" href="#response-engine">Live Monitoring</a>
+          <a class="sidebar__item" href="#session-logs">Session Logs</a>
+          <a class="sidebar__item" href="#response-engine">Behavior Analytics</a>
+          <a class="sidebar__item" href="#detail-panel">Attack Map</a>
+          <a class="sidebar__item" href="#session-logs">Reports</a>
+          <a class="sidebar__item" href="#overview">Settings</a>
+        </nav>
+
+        <div class="sidebar__footer">
+          <a href="/">Back to gateway</a>
+        </div>
+      </aside>
+
+      <section class="admin-main">
+        <header class="admin-header" id="overview">
+          <div>
+            <p class="eyebrow eyebrow--teal">Real-Time Threat Intelligence</p>
+            <h1 class="admin-title">Real-Time Security Analytics &amp; Threat Intelligence Platform</h1>
+            <p class="admin-subtitle">
+              Detect, analyze, and automatically respond to automated attacks using behavioral analytics, risk scoring, and adaptive security controls.
+            </p>
+          </div>
+
+        </header>
+
+        <section class="metric-grid">
+          <article class="metric-card">
+            <span>Total Sessions</span>
+            <strong id="metric-total">0</strong>
+            <p>All analyzed access attempts</p>
+          </article>
+          <article class="metric-card">
+            <span>Human Sessions</span>
+            <strong id="metric-accepted">0</strong>
+            <p id="metric-accepted-meta">No attempts yet</p>
+          </article>
+          <article class="metric-card">
+            <span>Bot Sessions</span>
+            <strong id="metric-bots">0</strong>
+            <p>Predicted automated sessions</p>
+          </article>
+          <article class="metric-card">
+            <span>Blocked Sessions</span>
+            <strong id="metric-blocked">0</strong>
+            <p id="metric-blocked-meta">Automated blocks</p>
+          </article>
+          <article class="metric-card">
+            <span>Average Risk Score</span>
+            <strong id="metric-average">0</strong>
+            <p>Mean score across all sessions</p>
+          </article>
+          <article class="metric-card">
+            <span>Active Threats</span>
+            <strong id="metric-active">0</strong>
+            <p>High-risk or critical sessions</p>
+          </article>
+        </section>
+
+        <div class="status-banner" id="status-banner">
+          <div class="status-banner__meter">
+            <span class="status-banner__fill" id="logs-progress-fill"></span>
+          </div>
+          <p id="logs-status">No attempts yet.</p>
+        </div>
+
+        <section class="analytics-grid-light" id="response-engine">
+          <article class="surface-card analytics-card">
+            <div class="section-heading section-heading--compact">
+              <h2>Threat Scoring Engine</h2>
+              <p>Severity distribution across persisted security events.</p>
+            </div>
+            <div class="dashboard-bars" id="risk-bars"></div>
+          </article>
+
+          <article class="surface-card analytics-card">
+            <div class="section-heading section-heading--compact">
+              <h2>Adaptive Response Engine</h2>
+              <p>CAPTCHA, OTP, and block actions issued by the platform.</p>
+            </div>
+            <div class="dashboard-actions" id="action-cards"></div>
+          </article>
+        </section>
+
+        <section class="workspace-grid">
+          <article class="surface-card logs-workspace" id="session-logs">
+            <div class="section-heading section-heading--compact">
+              <h2>Session Logs</h2>
+              <p>Review persisted authentication attempts and derived analytics.</p>
+            </div>
+
+            <div class="logs-table-wrap">
+              <table class="logs-table">
+                <thead>
+                  <tr>
+                    <th>Timestamp</th>
+                    <th>Username</th>
+                    <th>Decision</th>
+                    <th>Reason Summary</th>
+                    <th>AI Score</th>
+                    <th>Behavior Score</th>
+                    <th>CAPTCHA Score</th>
+                    <th>Automation Flags</th>
+                  </tr>
+                </thead>
+                <tbody id="log-body"></tbody>
+              </table>
+            </div>
+
+            <div class="logs-pagination" id="pagination">
+              <span id="page-meta">Page 1 of 1</span>
+              <div class="logs-pagination__actions">
+                <button class="button button--secondary" id="prev-page" type="button">Previous</button>
+                <button class="button button--secondary" id="next-page" type="button">Next</button>
+              </div>
+            </div>
+          </article>
+
+          <aside class="surface-card detail-workspace" id="detail-panel">
+            <div class="section-heading section-heading--compact">
+              <h2>AI Threat Analyst</h2>
+              <p>Inspect the Gemini-powered analyst report, decision context, and behavioral evidence for the selected session.</p>
+            </div>
+
+            <div class="detail-summary-grid" id="detail-summary">
+              <div class="empty-state">No session selected yet.</div>
+            </div>
+
+            <div class="detail-section">
+              <h3>Threat Intelligence Report</h3>
+              <div class="ai-report ai-report--stacked" id="detail-ai-report">
+                <div class="empty-state empty-state--classic">AI analyst output will appear here once a session is selected.</div>
+              </div>
+            </div>
+
+            <div class="detail-section">
+              <h3>Top Signals</h3>
+              <div class="detail-reasons" id="detail-reasons">
+                <div class="empty-state">Threat indicators will appear here once a session is selected.</div>
+              </div>
+            </div>
+
+            <div class="detail-section">
+              <h3>Behavior Snapshot</h3>
+              <div class="detail-behavior" id="detail-behavior">
+                <div class="empty-state">Behavior telemetry will appear here once a session is selected.</div>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </section>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

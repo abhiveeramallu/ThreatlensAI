@@ -1,0 +1,1234 @@
+[
+  {
+    "id": "behavior_7083e3f5-bf72-4ab2-8cc8-5db1ddc2f2b1",
+    "session_id": "sess_30b50b31-75d8-43f9-9bc9-ac6eff9a72bb",
+    "mouse_movements": 48,
+    "clicks": 4,
+    "keystrokes": 6,
+    "scroll_events": 0,
+    "typing_speed": 3.96,
+    "average_mouse_speed": 235.3,
+    "time_to_first_click_ms": 1760,
+    "time_to_submit_ms": 5244,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "bot_detect_decision": "unknown",
+      "bot_detect_flags": [],
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "pluginsLength": 5,
+        "languagesLength": 3,
+        "suspiciousUserAgent": false,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "challenge_state": {
+        "captchaSubmitted": false,
+        "captchaVerified": false,
+        "otpSubmitted": false,
+        "otpVerified": false,
+        "honeypotTriggered": false,
+        "failedCaptchaAttempts": 0,
+        "failedOtpAttempts": 0
+      },
+      "telemetry": {
+        "typing_cps": 3.96,
+        "mouse_move_count": 48,
+        "click_count": 4,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 1760,
+        "time_to_submit_ms": 5244,
+        "average_mouse_speed": 235.3,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      },
+      "fingerprint": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "language": "en-GB",
+        "timezone": "Asia/Calcutta"
+      }
+    },
+    "created_at": "2026-06-28T18:32:12.334Z"
+  },
+  {
+    "id": "behavior_c8e1b604-5ed2-4bd2-8cfd-bdeb2b6c4fa8",
+    "session_id": "sess_2602432a-5ed5-49f3-be0d-eb3d195763c3",
+    "mouse_movements": 157,
+    "clicks": 3,
+    "keystrokes": 12,
+    "scroll_events": 0,
+    "typing_speed": 4.52,
+    "average_mouse_speed": 36.93,
+    "time_to_first_click_ms": 37410,
+    "time_to_submit_ms": 42860,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "bot_detect_decision": "unknown",
+      "bot_detect_flags": [],
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "pluginsLength": 5,
+        "languagesLength": 3,
+        "suspiciousUserAgent": false,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "challenge_state": {
+        "captchaSubmitted": false,
+        "captchaVerified": false,
+        "otpSubmitted": false,
+        "otpVerified": false,
+        "honeypotTriggered": false,
+        "failedCaptchaAttempts": 0,
+        "failedOtpAttempts": 0
+      },
+      "telemetry": {
+        "typing_cps": 4.52,
+        "mouse_move_count": 157,
+        "click_count": 3,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 37410,
+        "time_to_submit_ms": 42860,
+        "average_mouse_speed": 36.93,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      },
+      "fingerprint": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "language": "en-GB",
+        "timezone": "Asia/Calcutta"
+      }
+    },
+    "created_at": "2026-06-29T02:43:14.777Z"
+  },
+  {
+    "id": "behavior_15da7800-d9d3-45b5-ab60-d817d79f27cc",
+    "session_id": "sess_3c1354cf-247a-4668-a37b-d259b3fe07cd",
+    "mouse_movements": 473,
+    "clicks": 8,
+    "keystrokes": 7,
+    "scroll_events": 112,
+    "typing_speed": 2.96,
+    "average_mouse_speed": 107.35,
+    "time_to_first_click_ms": 17179,
+    "time_to_submit_ms": 34865,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "bot_detect_decision": "unknown",
+      "bot_detect_flags": [],
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "pluginsLength": 5,
+        "languagesLength": 3,
+        "suspiciousUserAgent": false,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "challenge_state": {
+        "captchaSubmitted": false,
+        "captchaVerified": false,
+        "otpSubmitted": false,
+        "otpVerified": false,
+        "honeypotTriggered": false,
+        "failedCaptchaAttempts": 0,
+        "failedOtpAttempts": 0
+      },
+      "telemetry": {
+        "typing_cps": 2.96,
+        "mouse_move_count": 473,
+        "click_count": 8,
+        "scroll_count": 112,
+        "time_to_first_click_ms": 17179,
+        "time_to_submit_ms": 34865,
+        "average_mouse_speed": 107.35,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      },
+      "fingerprint": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "language": "en-GB",
+        "timezone": "Asia/Calcutta"
+      }
+    },
+    "created_at": "2026-06-29T03:08:18.890Z"
+  },
+  {
+    "id": "behavior_343ebdbf-d392-49c4-bfa7-c81531de7713",
+    "session_id": "sess_8156e183-6ae5-4e00-84f4-b4af8f920f9a",
+    "mouse_movements": 124,
+    "clicks": 3,
+    "keystrokes": 13,
+    "scroll_events": 0,
+    "typing_speed": 8.44,
+    "average_mouse_speed": 176.88,
+    "time_to_first_click_ms": 4028,
+    "time_to_submit_ms": 7314,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "bot_detect_decision": "unknown",
+      "bot_detect_flags": [],
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "pluginsLength": 5,
+        "languagesLength": 3,
+        "suspiciousUserAgent": false,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "challenge_state": {
+        "captchaSubmitted": false,
+        "captchaVerified": false,
+        "otpSubmitted": false,
+        "otpVerified": false,
+        "honeypotTriggered": false,
+        "failedCaptchaAttempts": 0,
+        "failedOtpAttempts": 0
+      },
+      "telemetry": {
+        "typing_cps": 8.44,
+        "mouse_move_count": 124,
+        "click_count": 3,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 4028,
+        "time_to_submit_ms": 7314,
+        "average_mouse_speed": 176.88,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      },
+      "fingerprint": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "language": "en-GB",
+        "timezone": "Asia/Calcutta"
+      }
+    },
+    "created_at": "2026-06-29T03:12:59.582Z"
+  },
+  {
+    "id": "behavior_e387b4d6-2ce3-42c7-8edb-a5d9caefadf4",
+    "session_id": "sess_f551367d-4052-4158-89b8-c83e810723aa",
+    "mouse_movements": 96,
+    "clicks": 3,
+    "keystrokes": 9,
+    "scroll_events": 0,
+    "typing_speed": 5.47,
+    "average_mouse_speed": 192.46,
+    "time_to_first_click_ms": 5716,
+    "time_to_submit_ms": 8801,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "bot_detect_decision": "unknown",
+      "bot_detect_flags": [],
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "pluginsLength": 5,
+        "languagesLength": 3,
+        "suspiciousUserAgent": false,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "challenge_state": {
+        "captchaSubmitted": false,
+        "captchaVerified": false,
+        "otpSubmitted": false,
+        "otpVerified": false,
+        "honeypotTriggered": false,
+        "failedCaptchaAttempts": 0,
+        "failedOtpAttempts": 0
+      },
+      "telemetry": {
+        "typing_cps": 5.47,
+        "mouse_move_count": 96,
+        "click_count": 3,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 5716,
+        "time_to_submit_ms": 8801,
+        "average_mouse_speed": 192.46,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      },
+      "fingerprint": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "language": "en-GB",
+        "timezone": "Asia/Calcutta"
+      }
+    },
+    "created_at": "2026-06-29T03:22:05.524Z"
+  },
+  {
+    "id": "behavior_0a037aeb-65fe-43a0-b92e-4b2e5342e415",
+    "session_id": "sess_cce63326-1757-4fb9-90db-8e4169575656",
+    "mouse_movements": 121,
+    "clicks": 3,
+    "keystrokes": 3,
+    "scroll_events": 7,
+    "typing_speed": 1.05,
+    "average_mouse_speed": 218.13,
+    "time_to_first_click_ms": 6249,
+    "time_to_submit_ms": 10809,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "bot_detect_decision": "unknown",
+      "bot_detect_flags": [],
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "pluginsLength": 5,
+        "languagesLength": 3,
+        "suspiciousUserAgent": false,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "challenge_state": {
+        "captchaSubmitted": false,
+        "captchaVerified": false,
+        "otpSubmitted": false,
+        "otpVerified": false,
+        "honeypotTriggered": false,
+        "failedCaptchaAttempts": 0,
+        "failedOtpAttempts": 0
+      },
+      "telemetry": {
+        "typing_cps": 1.05,
+        "mouse_move_count": 121,
+        "click_count": 3,
+        "scroll_count": 7,
+        "time_to_first_click_ms": 6249,
+        "time_to_submit_ms": 10809,
+        "average_mouse_speed": 218.13,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      },
+      "fingerprint": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "language": "en-GB",
+        "timezone": "Asia/Calcutta"
+      }
+    },
+    "created_at": "2026-06-29T03:35:48.609Z"
+  },
+  {
+    "id": "behavior_ebb11ffd-838a-433f-b969-7550a9b4da1e",
+    "session_id": "sess_7a34b2a5-4baf-4034-9862-b592acba2e5c",
+    "mouse_movements": 28,
+    "clicks": 3,
+    "keystrokes": 18,
+    "scroll_events": 2,
+    "typing_speed": 5.63,
+    "average_mouse_speed": 540,
+    "time_to_first_click_ms": 1100,
+    "time_to_submit_ms": 4200,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "human",
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "suspiciousUserAgent": false,
+        "pluginsLength": 5,
+        "languagesLength": 2,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 5.63,
+        "mouse_move_count": 28,
+        "click_count": 3,
+        "scroll_count": 2,
+        "time_to_first_click_ms": 1100,
+        "time_to_submit_ms": 4200,
+        "average_mouse_speed": 540,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      }
+    },
+    "created_at": "2026-06-29T04:10:15.764Z"
+  },
+  {
+    "id": "behavior_cc14ddea-33ae-4a4a-b57d-3b25db7c7b08",
+    "session_id": "sess_4c38467e-ef21-4cbb-be75-b2b5ddae713d",
+    "mouse_movements": 28,
+    "clicks": 3,
+    "keystrokes": 18,
+    "scroll_events": 2,
+    "typing_speed": 5.63,
+    "average_mouse_speed": 540,
+    "time_to_first_click_ms": 1100,
+    "time_to_submit_ms": 4200,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "human",
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "suspiciousUserAgent": false,
+        "pluginsLength": 5,
+        "languagesLength": 2,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 5.63,
+        "mouse_move_count": 28,
+        "click_count": 3,
+        "scroll_count": 2,
+        "time_to_first_click_ms": 1100,
+        "time_to_submit_ms": 4200,
+        "average_mouse_speed": 540,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      }
+    },
+    "created_at": "2026-06-29T04:10:43.155Z"
+  },
+  {
+    "id": "behavior_6bc6d58d-1957-4392-8a12-fbeda883d722",
+    "session_id": "sess_629d2478-7559-47dc-8c43-fffa55d7dfc0",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 12,
+    "scroll_events": 0,
+    "typing_speed": 25,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 100,
+    "time_to_submit_ms": 610,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "puppeteer",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": true
+        }
+      },
+      "telemetry": {
+        "typing_cps": 25,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 100,
+        "time_to_submit_ms": 610,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "headless_chrome",
+          "automation_evaluation",
+          "pptr_runtime"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T04:10:59.237Z"
+  },
+  {
+    "id": "behavior_07ee620a-aa4e-4a12-9de0-a9e70c3b638e",
+    "session_id": "sess_2a0b0299-9970-46e4-af17-8da55fa9f1f5",
+    "mouse_movements": 1,
+    "clicks": 1,
+    "keystrokes": 16,
+    "scroll_events": 0,
+    "typing_speed": 22.86,
+    "average_mouse_speed": 40,
+    "time_to_first_click_ms": 120,
+    "time_to_submit_ms": 680,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "playwright",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": true,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 22.86,
+        "mouse_move_count": 1,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 120,
+        "time_to_submit_ms": 680,
+        "average_mouse_speed": 40,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "playwright_binding",
+          "headless",
+          "stealth_mismatch"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T04:14:31.445Z"
+  },
+  {
+    "id": "behavior_ff79f5a5-ab40-4d8e-b176-3625a907469c",
+    "session_id": "sess_81aed513-c28d-43d5-8a18-58f1a934c4b3",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 12,
+    "scroll_events": 0,
+    "typing_speed": 25,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 100,
+    "time_to_submit_ms": 610,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "puppeteer",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": true
+        }
+      },
+      "telemetry": {
+        "typing_cps": 25,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 100,
+        "time_to_submit_ms": 610,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "headless_chrome",
+          "automation_evaluation",
+          "pptr_runtime"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T04:15:55.242Z"
+  },
+  {
+    "id": "behavior_30884060-2130-442e-bfd7-f595fc9ffa44",
+    "session_id": "sess_1975a803-0f99-4d7c-ae07-0dcc8fd09286",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 12,
+    "scroll_events": 0,
+    "typing_speed": 25,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 100,
+    "time_to_submit_ms": 610,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "puppeteer",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": true
+        }
+      },
+      "telemetry": {
+        "typing_cps": 25,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 100,
+        "time_to_submit_ms": 610,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "headless_chrome",
+          "automation_evaluation",
+          "pptr_runtime"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T04:18:41.586Z"
+  },
+  {
+    "id": "behavior_30575f5c-6888-4790-ba42-6ca1b6653237",
+    "session_id": "sess_58219f87-8784-47d9-ad3f-c190ff29438d",
+    "mouse_movements": 1,
+    "clicks": 1,
+    "keystrokes": 16,
+    "scroll_events": 0,
+    "typing_speed": 22.86,
+    "average_mouse_speed": 40,
+    "time_to_first_click_ms": 120,
+    "time_to_submit_ms": 680,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "playwright",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": true,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 22.86,
+        "mouse_move_count": 1,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 120,
+        "time_to_submit_ms": 680,
+        "average_mouse_speed": 40,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "playwright_binding",
+          "headless",
+          "stealth_mismatch"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T04:18:48.123Z"
+  },
+  {
+    "id": "behavior_7d7c9d49-cc0d-4327-9e6d-47a6a1a51be5",
+    "session_id": "sess_1a720208-564a-4845-a0c9-295b563b8ed4",
+    "mouse_movements": 2,
+    "clicks": 1,
+    "keystrokes": 14,
+    "scroll_events": 0,
+    "typing_speed": 18.42,
+    "average_mouse_speed": 38,
+    "time_to_first_click_ms": 220,
+    "time_to_submit_ms": 760,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "suspicious",
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "suspiciousUserAgent": false,
+        "pluginsLength": 2,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 18.42,
+        "mouse_move_count": 2,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 220,
+        "time_to_submit_ms": 760,
+        "average_mouse_speed": 38,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      }
+    },
+    "created_at": "2026-06-29T04:26:04.671Z"
+  },
+  {
+    "id": "behavior_a87cb522-3492-4ddc-975e-c34241384d1f",
+    "session_id": "sess_74708ca6-1bed-432a-b695-98a22f030e52",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 14,
+    "scroll_events": 0,
+    "typing_speed": 26.92,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 90,
+    "time_to_submit_ms": 540,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "selenium",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": true,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 26.92,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 90,
+        "time_to_submit_ms": 540,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "webdriver",
+          "chrome_driver",
+          "cdc_signature"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T04:33:42.878Z"
+  },
+  {
+    "id": "behavior_16c14795-df7b-400b-9793-da95a0d4acca",
+    "session_id": "sess_80eab715-930c-4345-9124-01c3cc774f13",
+    "mouse_movements": 1,
+    "clicks": 1,
+    "keystrokes": 16,
+    "scroll_events": 0,
+    "typing_speed": 22.86,
+    "average_mouse_speed": 40,
+    "time_to_first_click_ms": 120,
+    "time_to_submit_ms": 680,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "playwright",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": true,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 22.86,
+        "mouse_move_count": 1,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 120,
+        "time_to_submit_ms": 680,
+        "average_mouse_speed": 40,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "playwright_binding",
+          "headless",
+          "stealth_mismatch"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T05:04:05.171Z"
+  },
+  {
+    "id": "behavior_286a2730-a499-4357-a637-375edd108f0e",
+    "session_id": "sess_e8cdda85-c3f8-4096-a76b-fd4eef33c662",
+    "mouse_movements": 2,
+    "clicks": 1,
+    "keystrokes": 14,
+    "scroll_events": 0,
+    "typing_speed": 18.42,
+    "average_mouse_speed": 38,
+    "time_to_first_click_ms": 220,
+    "time_to_submit_ms": 760,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "suspicious",
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "suspiciousUserAgent": false,
+        "pluginsLength": 2,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 18.42,
+        "mouse_move_count": 2,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 220,
+        "time_to_submit_ms": 760,
+        "average_mouse_speed": 38,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      }
+    },
+    "created_at": "2026-06-29T05:22:54.355Z"
+  },
+  {
+    "id": "behavior_8e79c9b9-ad95-4120-b27f-fc89b042522c",
+    "session_id": "sess_c0fbfd04-caa6-42ed-bb3f-38654e06f668",
+    "mouse_movements": 1,
+    "clicks": 1,
+    "keystrokes": 16,
+    "scroll_events": 0,
+    "typing_speed": 22.86,
+    "average_mouse_speed": 40,
+    "time_to_first_click_ms": 120,
+    "time_to_submit_ms": 680,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "playwright",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": true,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 22.86,
+        "mouse_move_count": 1,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 120,
+        "time_to_submit_ms": 680,
+        "average_mouse_speed": 40,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "playwright_binding",
+          "headless",
+          "stealth_mismatch"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T05:22:57.250Z"
+  },
+  {
+    "id": "behavior_4a2495ef-fb02-479b-991c-04642633535d",
+    "session_id": "sess_95dcf8ba-5103-4b7a-99cf-ae59448c8fab",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 12,
+    "scroll_events": 0,
+    "typing_speed": 25,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 100,
+    "time_to_submit_ms": 610,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "puppeteer",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": true
+        }
+      },
+      "telemetry": {
+        "typing_cps": 25,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 100,
+        "time_to_submit_ms": 610,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "headless_chrome",
+          "automation_evaluation",
+          "pptr_runtime"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T05:23:00.450Z"
+  },
+  {
+    "id": "behavior_aa5814d8-ddd3-4cfa-8109-fbea6a5ab5b7",
+    "session_id": "sess_7fa6adb8-2c38-46b7-b3f1-42f4b45f9514",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 14,
+    "scroll_events": 0,
+    "typing_speed": 26.92,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 90,
+    "time_to_submit_ms": 540,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "selenium",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": true,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 26.92,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 90,
+        "time_to_submit_ms": 540,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "webdriver",
+          "chrome_driver",
+          "cdc_signature"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T05:23:02.333Z"
+  },
+  {
+    "id": "behavior_844f0c7c-6f6a-44f7-872c-103bc63bbea0",
+    "session_id": "sess_4db23e86-ea3f-49f0-9a0e-691410cbe9da",
+    "mouse_movements": 2,
+    "clicks": 1,
+    "keystrokes": 14,
+    "scroll_events": 0,
+    "typing_speed": 18.42,
+    "average_mouse_speed": 38,
+    "time_to_first_click_ms": 220,
+    "time_to_submit_ms": 760,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "suspicious",
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "suspiciousUserAgent": false,
+        "pluginsLength": 2,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 18.42,
+        "mouse_move_count": 2,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 220,
+        "time_to_submit_ms": 760,
+        "average_mouse_speed": 38,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      }
+    },
+    "created_at": "2026-06-29T05:23:04.066Z"
+  },
+  {
+    "id": "behavior_1ea3cd8a-eae2-45bc-8c34-1a19fb806740",
+    "session_id": "sess_918e4ae6-aade-437a-b119-dd52636892a4",
+    "mouse_movements": 1,
+    "clicks": 1,
+    "keystrokes": 16,
+    "scroll_events": 0,
+    "typing_speed": 22.86,
+    "average_mouse_speed": 40,
+    "time_to_first_click_ms": 120,
+    "time_to_submit_ms": 680,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "playwright",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 1,
+        "frameworks": {
+          "selenium": false,
+          "playwright": true,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 22.86,
+        "mouse_move_count": 1,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 120,
+        "time_to_submit_ms": 680,
+        "average_mouse_speed": 40,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "playwright_binding",
+          "headless",
+          "stealth_mismatch"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T05:23:04.583Z"
+  },
+  {
+    "id": "behavior_8776c4f4-5ca6-4524-b099-b5ad11e64322",
+    "session_id": "sess_da610751-0690-4279-b01e-93453d48abd5",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 12,
+    "scroll_events": 0,
+    "typing_speed": 25,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 100,
+    "time_to_submit_ms": 610,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "puppeteer",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": true
+        }
+      },
+      "telemetry": {
+        "typing_cps": 25,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 100,
+        "time_to_submit_ms": 610,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "headless_chrome",
+          "automation_evaluation",
+          "pptr_runtime"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T05:23:07.533Z"
+  },
+  {
+    "id": "behavior_90827d28-bf87-4825-b124-dd57139f596e",
+    "session_id": "sess_25ebb746-de44-433e-b3d3-2829261bdbf2",
+    "mouse_movements": 0,
+    "clicks": 1,
+    "keystrokes": 14,
+    "scroll_events": 0,
+    "typing_speed": 26.92,
+    "average_mouse_speed": 0,
+    "time_to_first_click_ms": 90,
+    "time_to_submit_ms": 540,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "simulation": true,
+      "attack_type": "selenium",
+      "automation_signals": {
+        "webdriver": true,
+        "headlessUA": true,
+        "suspiciousUserAgent": true,
+        "pluginsLength": 0,
+        "languagesLength": 0,
+        "frameworks": {
+          "selenium": true,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "telemetry": {
+        "typing_cps": 26.92,
+        "mouse_move_count": 0,
+        "click_count": 1,
+        "scroll_count": 0,
+        "time_to_first_click_ms": 90,
+        "time_to_submit_ms": 540,
+        "average_mouse_speed": 0,
+        "bot_signal_count": 3,
+        "bot_signal_labels": [
+          "webdriver",
+          "chrome_driver",
+          "cdc_signature"
+        ]
+      }
+    },
+    "created_at": "2026-06-29T05:23:08.198Z"
+  },
+  {
+    "id": "behavior_c6119eda-8375-42e3-a6a5-54f6b8b6e9d6",
+    "session_id": "sess_81defd7b-0bab-43b8-ae9d-f71829c63823",
+    "mouse_movements": 170,
+    "clicks": 8,
+    "keystrokes": 7,
+    "scroll_events": 48,
+    "typing_speed": 4.62,
+    "average_mouse_speed": 408.39,
+    "time_to_first_click_ms": 3144,
+    "time_to_submit_ms": 8856,
+    "captcha_verified": false,
+    "otp_verified": false,
+    "attempt_index": 1,
+    "raw_features": {
+      "bot_detect_decision": "unknown",
+      "bot_detect_flags": [],
+      "automation_signals": {
+        "webdriver": false,
+        "headlessUA": false,
+        "pluginsLength": 5,
+        "languagesLength": 3,
+        "suspiciousUserAgent": false,
+        "frameworks": {
+          "selenium": false,
+          "playwright": false,
+          "puppeteer": false
+        }
+      },
+      "challenge_state": {
+        "captchaSubmitted": false,
+        "captchaVerified": false,
+        "otpSubmitted": false,
+        "otpVerified": false,
+        "honeypotTriggered": false,
+        "failedCaptchaAttempts": 0,
+        "failedOtpAttempts": 0
+      },
+      "telemetry": {
+        "typing_cps": 4.62,
+        "mouse_move_count": 170,
+        "click_count": 8,
+        "scroll_count": 48,
+        "time_to_first_click_ms": 3144,
+        "time_to_submit_ms": 8856,
+        "average_mouse_speed": 408.39,
+        "bot_signal_count": 0,
+        "bot_signal_labels": []
+      },
+      "fingerprint": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "language": "en-GB",
+        "timezone": "Asia/Calcutta"
+      }
+    },
+    "created_at": "2026-06-29T05:25:53.092Z"
+  }
+]

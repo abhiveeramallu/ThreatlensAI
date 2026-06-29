@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "session_fba31a0e-9744-45a4-82c2-d793450d764e",
+    "session_id": "sess_30b50b31-75d8-43f9-9bc9-ac6eff9a72bb",
+    "timestamp": "2026-06-28T18:32:12.334Z",
+    "username": "sjd",
+    "ip_address": "127.0.0.1",
+    "country": "Unknown",
+    "city": "Unknown",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Human typing cadence | Measured completion time",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 4.0 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-28T18:32:12.334Z",
+    "created_at": "2026-06-28T18:32:12.334Z"
+  },
+  {
+    "id": "session_47da6604-cf96-46c4-a537-ea6911bf5b0d",
+    "session_id": "sess_2602432a-5ed5-49f3-be0d-eb3d195763c3",
+    "timestamp": "2026-06-29T02:43:14.777Z",
+    "username": "adhsjk",
+    "ip_address": "127.0.0.1",
+    "country": "Unknown",
+    "city": "Unknown",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Human typing cadence | Measured completion time",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 4.5 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T02:43:14.777Z",
+    "created_at": "2026-06-29T02:43:14.777Z"
+  },
+  {
+    "id": "session_5aca97a3-8f99-491c-bab9-db53e812b016",
+    "session_id": "sess_3c1354cf-247a-4668-a37b-d259b3fe07cd",
+    "timestamp": "2026-06-29T03:08:18.890Z",
+    "username": "abhi",
+    "ip_address": "127.0.0.1",
+    "country": "Unknown",
+    "city": "Unknown",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Multi-step interaction | Human typing cadence",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Multi-step interaction",
+        "detail": "Clicks and scrolling suggest a human exploration pattern.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 3.0 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T03:08:18.890Z",
+    "created_at": "2026-06-29T03:08:18.890Z"
+  },
+  {
+    "id": "session_be61537a-3910-4b74-8979-9c62bd872a89",
+    "session_id": "sess_8156e183-6ae5-4e00-84f4-b4af8f920f9a",
+    "timestamp": "2026-06-29T03:12:59.582Z",
+    "username": "ahduksj",
+    "ip_address": "127.0.0.1",
+    "country": "Unknown",
+    "city": "Unknown",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Human typing cadence | Measured completion time",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 8.4 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T03:12:59.582Z",
+    "created_at": "2026-06-29T03:12:59.582Z"
+  },
+  {
+    "id": "session_ef396d4d-7a9e-4214-9efd-6090a374d8d3",
+    "session_id": "sess_f551367d-4052-4158-89b8-c83e810723aa",
+    "timestamp": "2026-06-29T03:22:05.524Z",
+    "username": "hjgsd",
+    "ip_address": "127.0.0.1",
+    "country": "Unknown",
+    "city": "Unknown",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Human typing cadence | Measured completion time",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 5.5 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T03:22:05.524Z",
+    "created_at": "2026-06-29T03:22:05.524Z"
+  },
+  {
+    "id": "session_5714983c-e19b-48cd-aecf-14072fcccf16",
+    "session_id": "sess_cce63326-1757-4fb9-90db-8e4169575656",
+    "timestamp": "2026-06-29T03:35:48.609Z",
+    "username": "fd",
+    "ip_address": "127.0.0.1",
+    "country": "Unknown",
+    "city": "Unknown",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Multi-step interaction | Human typing cadence",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Multi-step interaction",
+        "detail": "Clicks and scrolling suggest a human exploration pattern.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 1.1 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T03:35:48.609Z",
+    "created_at": "2026-06-29T03:35:48.609Z"
+  },
+  {
+    "id": "session_bd7ca9df-b061-400b-b7a8-1c64fca6d7de",
+    "session_id": "sess_7a34b2a5-4baf-4034-9862-b592acba2e5c",
+    "timestamp": "2026-06-29T04:10:15.764Z",
+    "username": "human_analyst",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 Human Demo Chrome",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Multi-step interaction | Human typing cadence",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Multi-step interaction",
+        "detail": "Clicks and scrolling suggest a human exploration pattern.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 5.6 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T04:10:15.764Z",
+    "created_at": "2026-06-29T04:10:15.764Z"
+  },
+  {
+    "id": "session_0dd77def-80ec-47b9-9ed2-d34ac376bbad",
+    "session_id": "sess_4c38467e-ef21-4cbb-be75-b2b5ddae713d",
+    "timestamp": "2026-06-29T04:10:43.155Z",
+    "username": "human_analyst",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 Human Demo Chrome",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Natural mouse activity | Multi-step interaction | Human typing cadence",
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Multi-step interaction",
+        "detail": "Clicks and scrolling suggest a human exploration pattern.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 5.6 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T04:10:43.155Z",
+    "created_at": "2026-06-29T04:10:43.155Z"
+  },
+  {
+    "id": "session_0221938a-b9ed-4f95-99e8-af5e15790dd1",
+    "session_id": "sess_629d2478-7559-47dc-8c43-fffa55d7dfc0",
+    "timestamp": "2026-06-29T04:10:59.237Z",
+    "username": "puppeteer_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Puppeteer",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Puppeteer detected | Headless browser | WebDriver enabled",
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Puppeteer detected",
+        "detail": "Chromium automation signatures matched Puppeteer behavior.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "puppeteer"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T04:10:59.237Z",
+    "created_at": "2026-06-29T04:10:59.237Z"
+  },
+  {
+    "id": "session_68d215bf-9eab-4c12-a6fd-1fd394d41422",
+    "session_id": "sess_2a0b0299-9970-46e4-af17-8da55fa9f1f5",
+    "timestamp": "2026-06-29T04:14:31.445Z",
+    "username": "playwright_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Playwright",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Playwright detected | Headless browser | WebDriver enabled",
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Playwright detected",
+        "detail": "Playwright-specific runtime bindings were present.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Automation fingerprints",
+        "detail": "3 automation fingerprints matched.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "playwright"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T04:14:31.445Z",
+    "created_at": "2026-06-29T04:14:31.445Z"
+  },
+  {
+    "id": "session_07efc91d-55ca-45c0-83a9-9e33fa694881",
+    "session_id": "sess_81aed513-c28d-43d5-8a18-58f1a934c4b3",
+    "timestamp": "2026-06-29T04:15:55.242Z",
+    "username": "puppeteer_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Puppeteer",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Puppeteer detected | Headless browser | WebDriver enabled",
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Puppeteer detected",
+        "detail": "Chromium automation signatures matched Puppeteer behavior.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "puppeteer"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T04:15:55.242Z",
+    "created_at": "2026-06-29T04:15:55.242Z"
+  },
+  {
+    "id": "session_42433c38-81c4-442f-87e5-c0ee8c447534",
+    "session_id": "sess_1975a803-0f99-4d7c-ae07-0dcc8fd09286",
+    "timestamp": "2026-06-29T04:18:41.586Z",
+    "username": "puppeteer_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Puppeteer",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Puppeteer detected | Headless browser | WebDriver enabled",
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Puppeteer detected",
+        "detail": "Chromium automation signatures matched Puppeteer behavior.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "puppeteer"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T04:18:41.586Z",
+    "created_at": "2026-06-29T04:18:41.586Z"
+  },
+  {
+    "id": "session_34fa637d-9108-48d2-891e-3287b0f985b2",
+    "session_id": "sess_58219f87-8784-47d9-ad3f-c190ff29438d",
+    "timestamp": "2026-06-29T04:18:48.123Z",
+    "username": "playwright_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Playwright",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Playwright detected | Headless browser | WebDriver enabled",
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Playwright detected",
+        "detail": "Playwright-specific runtime bindings were present.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Automation fingerprints",
+        "detail": "3 automation fingerprints matched.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "playwright"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T04:18:48.123Z",
+    "created_at": "2026-06-29T04:18:48.123Z"
+  },
+  {
+    "id": "session_12b5991a-90f8-47e4-919a-976255fd578c",
+    "session_id": "sess_1a720208-564a-4845-a0c9-295b563b8ed4",
+    "timestamp": "2026-06-29T04:26:04.671Z",
+    "username": "suspicious_session",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "Windows",
+    "user_agent": "Mozilla/5.0 Suspicious Demo Chrome",
+    "threat_score": 40,
+    "threat_level": "SUSPICIOUS",
+    "prediction": "BOT",
+    "confidence": 85,
+    "action_taken": "SHOW_CAPTCHA",
+    "verification_state": "CAPTCHA_REQUIRED",
+    "reason_summary": "CAPTCHA was triggered because The form was submitted after 760ms. and Pointer movement was unusually low for a login flow.",
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Very fast submission",
+        "detail": "The form was submitted after 760ms.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 10,
+        "title": "Low mouse activity",
+        "detail": "Pointer movement was unusually low for a login flow.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 10,
+        "title": "Typing too fast",
+        "detail": "Typing cadence reached 18.4 characters per second.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 8,
+        "title": "Very fast first click",
+        "detail": "The first click happened in 220ms.",
+        "category": "behavior"
+      }
+    ],
+    "automation_flags": [
+      "rapid-submit",
+      "low-mouse-activity"
+    ],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T04:26:04.671Z",
+    "created_at": "2026-06-29T04:26:04.671Z"
+  },
+  {
+    "id": "session_4dac50e5-d89c-4864-b62b-6ef1281914b4",
+    "session_id": "sess_74708ca6-1bed-432a-b695-98a22f030e52",
+    "timestamp": "2026-06-29T04:33:42.878Z",
+    "username": "selenium_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Selenium",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Browser globals matched Selenium/WebDriver markers. and The user agent or browser profile indicates headless execution.",
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Selenium detected",
+        "detail": "Browser globals matched Selenium/WebDriver markers.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "webdriver",
+      "selenium"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T04:33:42.878Z",
+    "created_at": "2026-06-29T04:33:42.878Z"
+  },
+  {
+    "id": "session_ba29ac5e-d81b-4790-bfa7-e0cf67e80eaf",
+    "session_id": "sess_80eab715-930c-4345-9124-01c3cc774f13",
+    "timestamp": "2026-06-29T05:04:05.171Z",
+    "username": "playwright_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Playwright",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Playwright-specific runtime bindings were present. and The user agent or browser profile indicates headless execution.",
+    "ai_report": {
+      "executiveSummary": "CRITICAL confidence automated activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows Playwright-specific runtime bindings were present. The user agent or browser profile indicates headless execution.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 100/100 and confidence 98% support elevated defensive controls.",
+      "recommendedAction": "Block Session",
+      "analystNotes": "Primary indicators: Playwright-specific runtime bindings were present.; The user agent or browser profile indicates headless execution.; navigator.webdriver was true during the session.; The client-side detection layer classified the session as automation.; 3 automation fingerprints matched.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:04:05.171Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Playwright detected",
+        "detail": "Playwright-specific runtime bindings were present.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Automation fingerprints",
+        "detail": "3 automation fingerprints matched.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "playwright"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T05:04:05.171Z",
+    "created_at": "2026-06-29T05:04:05.171Z"
+  },
+  {
+    "id": "session_5cb48eac-e53f-4bb3-9786-2f7ec383ed40",
+    "session_id": "sess_e8cdda85-c3f8-4096-a76b-fd4eef33c662",
+    "timestamp": "2026-06-29T05:22:54.355Z",
+    "username": "suspicious_session",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "Windows",
+    "user_agent": "Mozilla/5.0 Suspicious Demo Chrome",
+    "threat_score": 40,
+    "threat_level": "SUSPICIOUS",
+    "prediction": "BOT",
+    "confidence": 85,
+    "action_taken": "SHOW_CAPTCHA",
+    "verification_state": "CAPTCHA_REQUIRED",
+    "reason_summary": "CAPTCHA was triggered because The form was submitted after 760ms. and Pointer movement was unusually low for a login flow.",
+    "ai_report": {
+      "executiveSummary": "SUSPICIOUS confidence automated activity assessment generated from 4 observed signals.",
+      "threatAssessment": "This login session shows The form was submitted after 760ms. Pointer movement was unusually low for a login flow.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 40/100 and confidence 85% support elevated defensive controls.",
+      "recommendedAction": "Trigger CAPTCHA",
+      "analystNotes": "Primary indicators: The form was submitted after 760ms.; Pointer movement was unusually low for a login flow.; Typing cadence reached 18.4 characters per second.; The first click happened in 220ms.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:22:54.355Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Very fast submission",
+        "detail": "The form was submitted after 760ms.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 10,
+        "title": "Low mouse activity",
+        "detail": "Pointer movement was unusually low for a login flow.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 10,
+        "title": "Typing too fast",
+        "detail": "Typing cadence reached 18.4 characters per second.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 8,
+        "title": "Very fast first click",
+        "detail": "The first click happened in 220ms.",
+        "category": "behavior"
+      }
+    ],
+    "automation_flags": [
+      "rapid-submit",
+      "low-mouse-activity"
+    ],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T05:22:54.355Z",
+    "created_at": "2026-06-29T05:22:54.355Z"
+  },
+  {
+    "id": "session_81f9e1fc-4562-4c96-8952-be2fad22a51d",
+    "session_id": "sess_c0fbfd04-caa6-42ed-bb3f-38654e06f668",
+    "timestamp": "2026-06-29T05:22:57.250Z",
+    "username": "playwright_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Playwright",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Playwright-specific runtime bindings were present. and The user agent or browser profile indicates headless execution.",
+    "ai_report": {
+      "executiveSummary": "CRITICAL confidence automated activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows Playwright-specific runtime bindings were present. The user agent or browser profile indicates headless execution.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 100/100 and confidence 98% support elevated defensive controls.",
+      "recommendedAction": "Block Session",
+      "analystNotes": "Primary indicators: Playwright-specific runtime bindings were present.; The user agent or browser profile indicates headless execution.; navigator.webdriver was true during the session.; The client-side detection layer classified the session as automation.; 3 automation fingerprints matched.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:22:57.250Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Playwright detected",
+        "detail": "Playwright-specific runtime bindings were present.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Automation fingerprints",
+        "detail": "3 automation fingerprints matched.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "playwright"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T05:22:57.250Z",
+    "created_at": "2026-06-29T05:22:57.250Z"
+  },
+  {
+    "id": "session_ad5299cc-bc78-4d45-ab41-8d2642f6ba9d",
+    "session_id": "sess_95dcf8ba-5103-4b7a-99cf-ae59448c8fab",
+    "timestamp": "2026-06-29T05:23:00.450Z",
+    "username": "puppeteer_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Puppeteer",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Chromium automation signatures matched Puppeteer behavior. and The user agent or browser profile indicates headless execution.",
+    "ai_report": {
+      "executiveSummary": "CRITICAL confidence automated activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows Chromium automation signatures matched Puppeteer behavior. The user agent or browser profile indicates headless execution.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 100/100 and confidence 98% support elevated defensive controls.",
+      "recommendedAction": "Block Session",
+      "analystNotes": "Primary indicators: Chromium automation signatures matched Puppeteer behavior.; The user agent or browser profile indicates headless execution.; navigator.webdriver was true during the session.; No pointer movement was recorded before submission.; The client-side detection layer classified the session as automation.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:23:00.450Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Puppeteer detected",
+        "detail": "Chromium automation signatures matched Puppeteer behavior.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "puppeteer"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T05:23:00.450Z",
+    "created_at": "2026-06-29T05:23:00.450Z"
+  },
+  {
+    "id": "session_d6761a7b-07f0-437a-accd-1122356a0077",
+    "session_id": "sess_7fa6adb8-2c38-46b7-b3f1-42f4b45f9514",
+    "timestamp": "2026-06-29T05:23:02.333Z",
+    "username": "selenium_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Selenium",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Browser globals matched Selenium/WebDriver markers. and The user agent or browser profile indicates headless execution.",
+    "ai_report": {
+      "executiveSummary": "CRITICAL confidence automated activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows Browser globals matched Selenium/WebDriver markers. The user agent or browser profile indicates headless execution.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 100/100 and confidence 98% support elevated defensive controls.",
+      "recommendedAction": "Block Session",
+      "analystNotes": "Primary indicators: Browser globals matched Selenium/WebDriver markers.; The user agent or browser profile indicates headless execution.; navigator.webdriver was true during the session.; No pointer movement was recorded before submission.; The client-side detection layer classified the session as automation.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:23:02.332Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Selenium detected",
+        "detail": "Browser globals matched Selenium/WebDriver markers.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "webdriver",
+      "selenium"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T05:23:02.333Z",
+    "created_at": "2026-06-29T05:23:02.333Z"
+  },
+  {
+    "id": "session_aacdafea-9eda-4292-a86a-43f101d00adb",
+    "session_id": "sess_4db23e86-ea3f-49f0-9a0e-691410cbe9da",
+    "timestamp": "2026-06-29T05:23:04.066Z",
+    "username": "suspicious_session",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "Windows",
+    "user_agent": "Mozilla/5.0 Suspicious Demo Chrome",
+    "threat_score": 40,
+    "threat_level": "SUSPICIOUS",
+    "prediction": "BOT",
+    "confidence": 85,
+    "action_taken": "SHOW_CAPTCHA",
+    "verification_state": "CAPTCHA_REQUIRED",
+    "reason_summary": "CAPTCHA was triggered because The form was submitted after 760ms. and Pointer movement was unusually low for a login flow.",
+    "ai_report": {
+      "executiveSummary": "SUSPICIOUS confidence automated activity assessment generated from 4 observed signals.",
+      "threatAssessment": "This login session shows The form was submitted after 760ms. Pointer movement was unusually low for a login flow.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 40/100 and confidence 85% support elevated defensive controls.",
+      "recommendedAction": "Trigger CAPTCHA",
+      "analystNotes": "Primary indicators: The form was submitted after 760ms.; Pointer movement was unusually low for a login flow.; Typing cadence reached 18.4 characters per second.; The first click happened in 220ms.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:23:04.065Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Very fast submission",
+        "detail": "The form was submitted after 760ms.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 10,
+        "title": "Low mouse activity",
+        "detail": "Pointer movement was unusually low for a login flow.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 10,
+        "title": "Typing too fast",
+        "detail": "Typing cadence reached 18.4 characters per second.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 8,
+        "title": "Very fast first click",
+        "detail": "The first click happened in 220ms.",
+        "category": "behavior"
+      }
+    ],
+    "automation_flags": [
+      "rapid-submit",
+      "low-mouse-activity"
+    ],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T05:23:04.066Z",
+    "created_at": "2026-06-29T05:23:04.066Z"
+  },
+  {
+    "id": "session_c564c7b4-0c11-487c-b4df-7b982314a50e",
+    "session_id": "sess_918e4ae6-aade-437a-b119-dd52636892a4",
+    "timestamp": "2026-06-29T05:23:04.583Z",
+    "username": "playwright_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Playwright",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Playwright-specific runtime bindings were present. and The user agent or browser profile indicates headless execution.",
+    "ai_report": {
+      "executiveSummary": "CRITICAL confidence automated activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows Playwright-specific runtime bindings were present. The user agent or browser profile indicates headless execution.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 100/100 and confidence 98% support elevated defensive controls.",
+      "recommendedAction": "Block Session",
+      "analystNotes": "Primary indicators: Playwright-specific runtime bindings were present.; The user agent or browser profile indicates headless execution.; navigator.webdriver was true during the session.; The client-side detection layer classified the session as automation.; 3 automation fingerprints matched.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:23:04.583Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Playwright detected",
+        "detail": "Playwright-specific runtime bindings were present.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 12,
+        "title": "Automation fingerprints",
+        "detail": "3 automation fingerprints matched.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "playwright"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T05:23:04.583Z",
+    "created_at": "2026-06-29T05:23:04.583Z"
+  },
+  {
+    "id": "session_9e2001d8-f033-4105-b449-d7da76d44830",
+    "session_id": "sess_da610751-0690-4279-b01e-93453d48abd5",
+    "timestamp": "2026-06-29T05:23:07.533Z",
+    "username": "puppeteer_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chromium",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Puppeteer",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Chromium automation signatures matched Puppeteer behavior. and The user agent or browser profile indicates headless execution.",
+    "ai_report": {
+      "executiveSummary": "CRITICAL confidence automated activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows Chromium automation signatures matched Puppeteer behavior. The user agent or browser profile indicates headless execution.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 100/100 and confidence 98% support elevated defensive controls.",
+      "recommendedAction": "Block Session",
+      "analystNotes": "Primary indicators: Chromium automation signatures matched Puppeteer behavior.; The user agent or browser profile indicates headless execution.; navigator.webdriver was true during the session.; No pointer movement was recorded before submission.; The client-side detection layer classified the session as automation.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:23:07.533Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Puppeteer detected",
+        "detail": "Chromium automation signatures matched Puppeteer behavior.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "headless",
+      "puppeteer"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T05:23:07.533Z",
+    "created_at": "2026-06-29T05:23:07.533Z"
+  },
+  {
+    "id": "session_2899406a-0cbd-48b0-afeb-021c69beef5e",
+    "session_id": "sess_25ebb746-de44-433e-b3d3-2829261bdbf2",
+    "timestamp": "2026-06-29T05:23:08.198Z",
+    "username": "selenium_bot",
+    "ip_address": "127.0.0.1",
+    "country": "Local Demo",
+    "city": "Simulation Lab",
+    "browser": "Chrome",
+    "operating_system": "Linux",
+    "user_agent": "Mozilla/5.0 HeadlessChrome Selenium",
+    "threat_score": 100,
+    "threat_level": "CRITICAL",
+    "prediction": "BOT",
+    "confidence": 98,
+    "action_taken": "BLOCK_SESSION",
+    "verification_state": "BLOCKED",
+    "reason_summary": "Session was blocked because Browser globals matched Selenium/WebDriver markers. and The user agent or browser profile indicates headless execution.",
+    "ai_report": {
+      "executiveSummary": "CRITICAL confidence automated activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows Browser globals matched Selenium/WebDriver markers. The user agent or browser profile indicates headless execution.",
+      "riskAssessment": "The observed pattern is consistent with scripted or automated access behavior. Score 100/100 and confidence 98% support elevated defensive controls.",
+      "recommendedAction": "Block Session",
+      "analystNotes": "Primary indicators: Browser globals matched Selenium/WebDriver markers.; The user agent or browser profile indicates headless execution.; navigator.webdriver was true during the session.; No pointer movement was recorded before submission.; The client-side detection layer classified the session as automation.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:23:08.198Z"
+    },
+    "explainability": [
+      {
+        "direction": "risk",
+        "weight": 30,
+        "title": "Selenium detected",
+        "detail": "Browser globals matched Selenium/WebDriver markers.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 25,
+        "title": "Headless browser",
+        "detail": "The user agent or browser profile indicates headless execution.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "WebDriver enabled",
+        "detail": "navigator.webdriver was true during the session.",
+        "category": "automation"
+      },
+      {
+        "direction": "risk",
+        "weight": 20,
+        "title": "No mouse activity",
+        "detail": "No pointer movement was recorded before submission.",
+        "category": "behavior"
+      },
+      {
+        "direction": "risk",
+        "weight": 18,
+        "title": "Bot-detect verdict",
+        "detail": "The client-side detection layer classified the session as automation.",
+        "category": "automation"
+      }
+    ],
+    "automation_flags": [
+      "bot-detect",
+      "webdriver",
+      "selenium"
+    ],
+    "bot_signal_count": 3,
+    "updated_at": "2026-06-29T05:23:08.198Z",
+    "created_at": "2026-06-29T05:23:08.198Z"
+  },
+  {
+    "id": "session_77070b9b-56e4-4f00-ac2a-a6cde93dab44",
+    "session_id": "sess_81defd7b-0bab-43b8-ae9d-f71829c63823",
+    "timestamp": "2026-06-29T05:25:53.092Z",
+    "username": "asnda",
+    "ip_address": "127.0.0.1",
+    "country": "Unknown",
+    "city": "Unknown",
+    "browser": "Chrome",
+    "operating_system": "macOS",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+    "threat_score": 0,
+    "threat_level": "SAFE",
+    "prediction": "HUMAN",
+    "confidence": 96,
+    "action_taken": "ALLOW_ACCESS",
+    "verification_state": "NONE",
+    "reason_summary": "Access was allowed because The session generated sustained pointer movement. and Clicks and scrolling suggest a human exploration pattern.",
+    "ai_report": {
+      "executiveSummary": "SAFE confidence human activity assessment generated from 5 observed signals.",
+      "threatAssessment": "This login session shows The session generated sustained pointer movement. Clicks and scrolling suggest a human exploration pattern.",
+      "riskAssessment": "The session remained within a lower-risk profile. Score 0/100 and confidence 96% indicate limited evidence of automation.",
+      "recommendedAction": "Allow Access",
+      "analystNotes": "Supportive indicators outweighed automation concerns. The session generated sustained pointer movement. Clicks and scrolling suggest a human exploration pattern.",
+      "source": "fallback",
+      "provider": "local-rule-engine",
+      "model": "fallback-analyst",
+      "fallbackReason": "Gemini API key not configured. Generated a local analyst summary instead.",
+      "generatedAt": "2026-06-29T05:25:53.092Z"
+    },
+    "explainability": [
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Natural mouse activity",
+        "detail": "The session generated sustained pointer movement.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Multi-step interaction",
+        "detail": "Clicks and scrolling suggest a human exploration pattern.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Human typing cadence",
+        "detail": "Typing speed stayed within a more typical human range at 4.6 cps.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "Measured completion time",
+        "detail": "The form completion time was not overly aggressive.",
+        "category": "behavior"
+      },
+      {
+        "direction": "support",
+        "weight": 0,
+        "title": "No strong automation markers",
+        "detail": "The browser did not expose the strongest automation signatures.",
+        "category": "fingerprint"
+      }
+    ],
+    "automation_flags": [],
+    "bot_signal_count": 0,
+    "updated_at": "2026-06-29T05:25:53.092Z",
+    "created_at": "2026-06-29T05:25:53.092Z"
+  }
+]

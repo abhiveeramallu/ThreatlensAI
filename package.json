@@ -1,0 +1,25 @@
+{
+  "name": "bot-detection-ai-demo",
+  "version": "1.0.0",
+  "description": "Localhost bot detection demo with AI scoring and bot-detect integration",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "bot:selenium": "node bots/selenium.js",
+    "bot:puppeteer": "node bots/puppeteer.js",
+    "bot:playwright": "node bots/playwright.js",
+    "bot:all": "node bots/run-all.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.1",
+    "puppeteer": "^22.12.1",
+    "selenium-webdriver": "^4.27.0"
+  }
+}

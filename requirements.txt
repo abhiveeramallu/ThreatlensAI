@@ -1,0 +1,6 @@
+# System requirements (this is a Node.js project)
+node>=18
+npm>=9
+
+# Optional for bot simulations
+chromium
