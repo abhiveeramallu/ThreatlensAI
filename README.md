@@ -1,333 +1,278 @@
-# Bot Detection with AI
+# AI-Powered Bot Detection & Threat Intelligence Platform
 
-An AI-powered behavioral bot detection and security analytics demo that focuses on the highest-value phase-one features for a portfolio project:
+A resume-focused full-stack cybersecurity project that detects suspicious login activity, applies adaptive verification controls, and generates analyst-style threat intelligence reports using Google's Gemini API.
 
-- Persistent security session logging with PostgreSQL-ready storage and file fallback
-- Rule-based threat scoring with explainable evidence
-- Automated response actions: allow, CAPTCHA, OTP, or block
-- Security operations dashboard with filters, pagination, charts, and CSV export
-- Explainable AI session detail panels for interview-friendly storytelling
+This project is designed to feel like a lightweight security product rather than a classroom demo. It combines browser-side telemetry, server-side threat scoring, adaptive authentication, persistent session logging, attack simulation, and AI-generated reporting in one workflow.
 
-## 🌟 Features
+## Why This Project Stands Out
 
-- **Persistent Logging**: Stores sessions and behavior events in PostgreSQL when configured, with automatic local JSON/CSV fallback for demos
-- **Threat Scoring Engine**: Produces a 0-100 security score, threat level, prediction, and confidence with explicit reasons
-- **Automated Response Engine**: Routes sessions into `ALLOW_ACCESS`, `SHOW_CAPTCHA`, `REQUIRE_OTP`, or `BLOCK_SESSION`
-- **Explainable AI**: Shows the strongest risk or support signals for each verdict in both the login flow and the dashboard
-- **Security Dashboard**: Includes metrics, filters, search, pagination, browser breakdown, daily detections, block trends, and CSV export
-- **Bot Simulation**: Built-in Selenium, Puppeteer, and Playwright attack scripts for testing
+- Behavioral bot detection using timing, typing, mouse, and browser fingerprint signals
+- Adaptive response engine with allow, CAPTCHA, OTP, and block actions
+- Gemini-powered threat analyst layer that converts raw detection signals into professional security reports
+- Security dashboard with session logs, risk distributions, response metrics, and explainable AI details
+- Persistent storage with PostgreSQL support and file-based fallback for local demos
+- Built-in suspicious session, Selenium, Playwright, and Puppeteer simulations
 
-## 🏗️ Architecture Overview
+## Resume-Ready Highlights
 
-```mermaid
-graph TB
-    A[User Browser] --> B[Client Detection Layer]
-    B --> C[Behavioral Analysis]
-    B --> D[Invisible Traps]
-    B --> E[Bot-Detect Library]
-    
-    C --> F[Mouse Movement Tracking]
-    C --> G[Keystroke Dynamics]
-    C --> H[Timing Analysis]
-    
-    D --> I[Honeypot Fields]
-    D --> J[Hidden Elements]
-    
-    E --> K[Automation Detection]
-    E --> L[WebDriver Detection]
-    E --> M[Headless Browser Detection]
-    
-    F --> N[AI Scoring Engine]
-    G --> N
-    H --> N
-    I --> N
-    J --> N
-    K --> N
-    L --> N
-    M --> N
-    
-    N --> O[Decision Engine]
-    O --> P[Accept/Reject]
-    
-    P --> Q[Access Logs]
-    P --> R[User Feedback]
-    
-    Q --> S[Admin Dashboard]
-```
+- Built an AI-assisted cybersecurity platform that combines behavioral bot detection, adaptive authentication, and natural-language threat analysis
+- Integrated Google Gemini 2.5 Flash to generate structured threat intelligence reports from raw login security signals
+- Developed a full-stack threat intelligence workflow with Express, JavaScript, PostgreSQL-ready persistence, and enterprise-style security analytics
+- Implemented explainable risk scoring, CAPTCHA/OTP escalation, and analyst-facing dashboard views for security operations storytelling
 
-## 🚀 Quick Start
+## Current Feature Set
 
-### Prerequisites
-- **Node.js** 18+ and **npm** 9+
-- **Chromium/Chrome** (for bot simulations)
-- **Playwright browsers**: `npx playwright install` (optional)
+### 1. Threat Scoring Engine
 
-### Installation
+The backend scoring engine evaluates each login attempt and produces:
 
-1. **Clone and install dependencies**:
-   ```bash
-   git clone https://github.com/abhiveeramallu/Bot-detection.git
-   cd Bot-detection
-   npm install
-   ```
+- Threat score from `0-100`
+- Threat level: `SAFE`, `SUSPICIOUS`, `HIGH_RISK`, `CRITICAL`
+- Classification: `HUMAN` or `BOT`
+- Confidence percentage
+- Explainability signals that describe why the score was assigned
 
-2. **Verify bot-detect bundle**:
-   Ensure `public/vendor/botdetect.min.js` exists. If not, follow `public/vendor/README.md` to rebuild.
+Signals currently include:
 
-3. **Start the server**:
-   ```bash
-   npm start
-   ```
+- WebDriver and headless browser markers
+- Selenium, Playwright, and Puppeteer fingerprints
+- Suspicious user-agent patterns
+- Mouse movement scarcity
+- Rapid submission timing
+- Typing cadence
+- Honeypot/trap interactions
+- Repeated local risk context
 
-4. **Access the application**:
-   - **Login Page**: http://localhost:3000
-   - **Admin Dashboard**: http://localhost:3000/admin.html
+### 2. Adaptive Response Engine
 
-## 🎭 Bot Attack Simulation
+After scoring a session, the platform applies a response action:
 
-Test the detection system with automated attacks:
+- `ALLOW_ACCESS`
+- `SHOW_CAPTCHA`
+- `REQUIRE_OTP`
+- `BLOCK_SESSION`
 
-```bash
-# Selenium WebDriver attack
-npm run bot:selenium
+This gives the project a practical security workflow instead of a binary allow/deny demo.
 
-# Puppeteer-based attack
-npm run bot:puppeteer
+### 3. AI Threat Analyst Layer
 
-# Playwright-based attack
-npm run bot:playwright
+The app includes a backend Gemini integration in [server/geminiThreatAnalyst.js](server/geminiThreatAnalyst.js) that transforms technical indicators into structured analyst output:
 
-# Run all bots in sequence
-npm run bot:all
-```
+- Executive Summary
+- Threat Assessment
+- Risk Assessment
+- Recommended Action
+- Analyst Notes
 
-*Run these commands while the server is running to see real-time detection in action.*
-The bot scripts automatically solve the randomized CAPTCHA (word, math, or code).
+If `GEMINI_API_KEY` is missing or Gemini is unavailable, the platform falls back to a local analyst-style report so the threat pipeline still works.
 
-### Target a Deployed URL
-Send the bots to a live deployment using `BOT_TARGET_URL`:
+### 4. Security Dashboard
 
-```bash
-BOT_TARGET_URL="https://your-project.vercel.app" npm run bot:all
-```
+The admin dashboard at `/admin.html` includes:
 
-Optional tuning:
-- `BOT_TIMEOUT_MS=60000` to increase wait time
-- `BOT_HEADLESS=false` to watch the bots run visually
+- Session totals
+- Human vs bot counts
+- Blocked session counts
+- Average risk score
+- Active threats
+- Threat level distribution
+- Adaptive action distribution
+- Session logs table
+- Explainable AI detail panel
+- AI Threat Analyst panel for selected sessions
 
-## 📁 Project Structure
+### 5. Attack Simulation Center
 
-```mermaid
-graph LR
-    A[Root] --> B[bots/]
-    A --> C[public/]
-    A --> D[server/]
-    A --> E[storage/]
-    A --> F[vendor/]
-    A --> G[api/]
-    
-    B --> B1[selenium.js]
-    B --> B2[puppeteer.js]
-    B --> B3[playwright.js]
-    B --> B4[run-all.js]
-    
-    C --> C1[index.html]
-    C --> C2[admin.html]
-    C --> C3[app.js]
-    C --> C4[styles.css]
-    C --> C5[vendor/]
-    
-    D --> D1[index.js]
-    D --> D2[app.js]
-    D --> D3[aiScoring.js]
-    D --> D4[logger.js]
-    
-    E --> E1[access_log.csv]
-    
-    F --> F1[bot-detect/]
+The landing page includes a simulation area for testing the detection pipeline with:
 
-    G --> G1["[...path].js"]
-```
+- Suspicious session simulation
+- Selenium simulation
+- Playwright simulation
+- Puppeteer simulation
 
-### Directory Details
+These are useful for demos, screenshots, and interview walkthroughs.
 
-- **`bots/`** - Automated attack scripts using popular automation frameworks
-- **`public/`** - Frontend assets including login UI, admin dashboard, and client-side detection
-- **`server/`** - Express.js backend with AI scoring, decision engine, and logging
-- **`api/`** - Serverless entrypoint for Vercel (`api/[...path].js`)
-- **`storage/`** - CSV access logs (git-ignored for privacy)
-- **`vendor/`** - Third-party libraries including bot-detect
-
-## 🔍 Detection Pipeline
+## Product Flow
 
 ```mermaid
 flowchart TD
-    A[Login Attempt] --> B[Client-Side Collection]
-    B --> C{Behavioral Analysis}
-    B --> D{Invisible Traps}
-    B --> E{Bot-Detect Scan}
-    
-    C --> C1[Mouse Patterns]
-    C --> C2[Typing Rhythm]
-    C --> C3[Timing Metrics]
-    
-    D --> D1[Honeypot Click]
-    D --> D2[Hidden Field]
-    D --> D3[Trap Interaction]
-    
-    E --> E1[WebDriver Check]
-    E --> E2[Headless Detection]
-    E --> E3[Automation Flags]
-    
-    C1 --> F[AI Scoring]
-    C2 --> F
-    C3 --> F
-    D1 --> F
-    D2 --> F
-    D3 --> F
-    E1 --> F
-    E2 --> F
-    E3 --> F
-    
-    F --> G{Risk Score >= 0.6?}
-    G -->|Yes| H[REJECTED]
-    G -->|No| I[ACCEPTED]
-    
-    H --> J[Log Attempt]
-    I --> J
-    J --> K[Update Dashboard]
+    A[Login Attempt] --> B[Client Telemetry Collection]
+    B --> C[Behavioral Signals]
+    B --> D[Browser / Automation Signals]
+    B --> E[Trap / Challenge Signals]
+
+    C --> F[Threat Scoring Engine]
+    D --> F
+    E --> F
+
+    F --> G[Adaptive Decision Engine]
+    G --> H[Allow]
+    G --> I[CAPTCHA]
+    G --> J[OTP]
+    G --> K[Block]
+
+    F --> L[Gemini Threat Analyst]
+    L --> M[Structured Threat Report]
+
+    G --> N[Persistent Session Logging]
+    M --> N
+
+    N --> O[Security Dashboard]
 ```
 
-## 📊 Detection Features
+## Tech Stack
 
-### Behavioral Analysis
-- **Mouse Movement**: Track movement patterns, velocity, and natural vs robotic motion
-- **Keystroke Dynamics**: Analyze typing rhythm, speed variations, and pause patterns
-- **Timing Metrics**: Measure time to first click, form completion time, and interaction delays
+- **Frontend:** Vanilla JavaScript, HTML, CSS
+- **Backend:** Node.js, Express
+- **AI Reporting:** Google Gemini 2.5 Flash via `@google/generative-ai`
+- **Persistence:** PostgreSQL-ready storage with JSON/CSV fallback
+- **Bot Simulation:** Selenium, Playwright, Puppeteer
+- **Environment Loading:** `dotenv`
 
-### Invisible Traps
-- **Honeypot Fields**: Hidden form fields that bots typically fill
-- **Trap Elements**: Invisible buttons and links designed to catch automated interactions
-- **CSS Traps**: Elements positioned off-screen or with zero opacity
+## Project Structure
 
-### Automation Detection
-- **WebDriver Detection**: Identify Selenium, Puppeteer, and Playwright automation
-- **Headless Browser Flags**: Detect headless Chrome, Firefox, and WebKit
-- **Plugin/Language Checks**: Verify browser fingerprint authenticity
-
-### AI Scoring Engine
-- **Multi-Feature Analysis**: Combines all signals into a unified risk score
-- **Configurable Thresholds**: Adjustable sensitivity levels (default: 0.6)
-- **Reason Generation**: Human-readable explanations for detection decisions
-
-## 📈 Admin Dashboard Features
-
-- **Real-time Statistics**: Live counts of accepted vs rejected attempts
-- **Detailed Logs**: Comprehensive CSV export with all detection metrics
-- **Visual Analytics**: Color-coded decisions and score visualizations
-- **Filtering Options**: Sort by timestamp, decision, username, or risk factors
-
-## 🔧 Configuration
-
-### Thresholds
-```javascript
-const SCORE_THRESHOLD = 0.6;      // AI risk score threshold
-const CAPTCHA_THRESHOLD = 0.6;     // CAPTCHA anomaly threshold
+```text
+.
+├── api/                     # Serverless entrypoint for deployment targets
+├── bots/                    # Automation attack scripts
+├── public/                  # Landing page, dashboard, styles, frontend logic
+├── server/                  # Express app, scoring, storage, Gemini analyst
+├── storage/                 # Local persistence fallback files
+├── .env.example             # Example environment variables
+├── package.json
+└── README.md
 ```
 
-### Environment Variables
-- `BOT_TARGET_URL` to point bot scripts at a deployed site.
-- `BOT_TIMEOUT_MS` to increase bot wait time.
-- `BOT_HEADLESS=false` to run bots in visible mode.
-- `LOG_PATH` or `LOG_DIR` to control where CSV logs are written.
+Key files:
 
-### Detection Features
-The AI scoring engine analyzes:
-- **CAPTCHA Metrics**: Challenge type, time to solve, retries, and answer match
-- **Behavioral Signals**: Mouse movements, keystrokes, typing patterns
-- **Automation Flags**: WebDriver, headless UA, missing plugins/languages
-- **Trap Interactions**: Honeypot clicks, hidden field triggers
+- [public/index.html](public/index.html) - Landing page, login gateway, AI report card, simulation center
+- [public/admin.html](public/admin.html) - Security dashboard and analyst views
+- [public/app.js](public/app.js) - Client-side telemetry, login flow, live simulation UI
+- [public/admin.js](public/admin.js) - Dashboard metrics, logs, detail rendering
+- [server/app.js](server/app.js) - Main API routes and decision workflow
+- [server/aiScoring.js](server/aiScoring.js) - Threat scoring logic
+- [server/geminiThreatAnalyst.js](server/geminiThreatAnalyst.js) - Gemini integration and fallback reports
+- [server/storage.js](server/storage.js) - PostgreSQL/file persistence layer
 
-## 📝 Logging Format
+## Quick Start
 
-Every login attempt is logged to `storage/access_log.csv` with:
+### Prerequisites
 
-```csv
-timestamp,username,decision,label,reason,reasonSummary,aiScore,behaviorScore,automationScore,automationFlags,
-botDetectDecision,botSignalCount,botDetectFlags,webdriver,headlessUA,pluginsLength,languagesLength,captchaScore,
-captchaChallengeType,captchaTimeToSolveMs,captchaAttempts,captchaHoneypotTriggered,captchaActivationDelayMs,
-captchaVerifiedClient,trapClicked,timeToFirstClickMs,timeToSubmitMs,mouseMoveCount,keystrokeCount,
-typingDurationMs,typingCps,userAgent,platform,language,timezone
+- Node.js 18+
+- npm
+- Chrome/Chromium for bot simulation scripts
+
+### Install
+
+```bash
+git clone <your-repo-url>
+cd Bot-detection-main
+npm install
 ```
 
-**Note**: `storage/*.csv` files are git-ignored to protect user privacy.
+### Configure Environment
 
-## 🛡️ Security & Privacy
+Copy the example file:
 
-- **Human-Friendly Messages**: Non-technical feedback that doesn't expose detection logic
-- **Admin-Only Details**: Internal scoring and technical reasons restricted to logs
-- **Local-First Operation**: No cloud services or external API calls required
-- **Minimal Fingerprinting**: Privacy-conscious data collection (UA, platform, language, timezone)
-- **No PII Storage**: Username sanitization and no personal information retention
+```bash
+cp .env.example .env
+```
 
-## 🧪 Testing & Development
+Then add your Gemini key in `.env`:
 
-### Bot Simulation Scripts
-Each bot script demonstrates different attack vectors:
-- **Selenium**: Traditional WebDriver automation
-- **Puppeteer**: Headless Chrome automation
-- **Playwright**: Cross-browser automation framework
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_MODEL=gemini-2.5-flash
+```
 
-### Manual Testing
-1. Start the server: `npm start`
-2. Open http://localhost:3000 in a regular browser (should be accepted)
-3. Run bot scripts (should be rejected)
-4. Monitor results in admin dashboard
+Notes:
 
-### Bot Testing (Local + Deployed)
-Run bots from your local machine and target localhost or a deployed URL using `BOT_TARGET_URL`.
+- `.env` is already ignored by git
+- If you do not set `GEMINI_API_KEY`, the app still works using the fallback local analyst report
 
-## ☁️ Vercel Deployment Notes
-- API routes are handled by `api/[...path].js`, so `/api/login` and `/api/logs` work on Vercel.
-- Logs are written to `/tmp/access_log.csv` in serverless environments (ephemeral). For persistence, set `LOG_PATH` or wire to external storage.
-- The UI in `public/` is served automatically by Vercel.
-- Run bots from your local machine using `BOT_TARGET_URL` to hit your deployed site.
+### Run the App
 
-## 🚀 Production Considerations
+```bash
+npm start
+```
 
-For production deployment, consider:
-- **Admin Authentication**: Add access control to `/admin.html` and `/api/logs`
-- **Rate Limiting**: Implement IP-based request throttling
-- **CSRF Protection**: Add anti-CSRF tokens for form submissions
-- **HTTPS**: Enable SSL/TLS for secure communication
-- **Database**: Replace CSV logging with proper database storage
-- **Scaling**: Consider load balancing for high-traffic scenarios
+Open:
 
-## 🤝 Contributing
+- Login page: [http://127.0.0.1:3000](http://127.0.0.1:3000)
+- Admin dashboard: [http://127.0.0.1:3000/admin.html](http://127.0.0.1:3000/admin.html)
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -m 'Add feature description'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
+## How to Demo the Project
 
-## 📄 License
+### Manual Demo
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Start the app with `npm start`
+2. Open the landing page
+3. Submit a normal login attempt
+4. Review the generated AI Threat Intelligence Report
+5. Open the admin dashboard and inspect the stored session
 
-## 🙏 Acknowledgments
+### Simulation Demo
 
-- **[bot-detect](https://github.com/AudriusVaskevicius/bot-detect)** - JavaScript bot detection library
-- **Express.js** - Web framework for Node.js
-- **Playwright, Puppeteer, Selenium** - Browser automation frameworks (for testing)
+Use the landing page simulation buttons or run scripts directly:
 
-## 📞 Support
+```bash
+npm run bot:selenium
+npm run bot:playwright
+npm run bot:puppeteer
+npm run bot:all
+```
 
-For questions, issues, or contributions:
-- Create an issue on GitHub
-- Check the existing documentation
-- Review the bot simulation examples
+The UI also supports an in-app suspicious session simulation for a mid-risk challenge path.
 
----
+## API / Environment Notes
 
-**⚠️ Disclaimer**: This is a demo project for educational purposes. For production use, implement proper authentication, security hardening, and compliance measures.
+### Important Environment Variables
+
+- `GEMINI_API_KEY` - enables Gemini threat reporting
+- `GEMINI_MODEL` - optional override, defaults to `gemini-2.5-flash`
+- `DATABASE_URL` - enables PostgreSQL session persistence
+- `PGHOST`, `PGPORT`, `PGUSER`, `PGPASSWORD`, `PGDATABASE` - alternate PostgreSQL configuration
+- `LOG_DIR` / `SESSION_LOG_PATH` / `BEHAVIOR_LOG_PATH` / `LOG_PATH` - file persistence overrides
+
+### Storage Behavior
+
+The app chooses persistence like this:
+
+- If PostgreSQL environment variables are configured and the connection succeeds, it uses PostgreSQL
+- Otherwise it falls back to local file-based persistence in `storage/`
+
+This makes the project easy to demo locally while still showing production-minded design.
+
+## What Recruiters / Interviewers Can Notice
+
+- Clear separation between scoring logic, storage, UI, and AI reporting
+- Real adaptive authentication workflow instead of static detection labels
+- Explainable AI and analyst-facing security summaries
+- Hybrid engineering scope: frontend, backend, AI integration, and security logic
+- Strong demo story for cybersecurity, full-stack, detection engineering, or AI product roles
+
+## Suggested GitHub Description
+
+Use something like:
+
+> AI-powered bot detection and threat intelligence platform with behavioral scoring, adaptive CAPTCHA/OTP controls, Gemini-generated analyst reports, and a security operations dashboard.
+
+## Suggested Resume Entry
+
+**AI-Powered Bot Detection & Threat Intelligence Platform**  
+Built a full-stack cybersecurity platform that detects suspicious login behavior using browser telemetry, adaptive risk scoring, and automation fingerprints. Integrated Google Gemini 2.5 Flash to generate structured threat intelligence reports, and developed a security dashboard for explainable AI analysis, analyst workflows, and persistent session review.
+
+## Production Next Steps
+
+If you want to keep improving the project, the highest-value next upgrades are:
+
+- Add admin authentication for the dashboard
+- Add rate limiting and request throttling
+- Add alerting integrations such as Slack or email
+- Add geographic enrichment / IP intelligence
+- Add session replay or attack pattern clustering
+- Add PostgreSQL in your deployed environment
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
